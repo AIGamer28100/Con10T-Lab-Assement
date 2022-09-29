@@ -15,11 +15,10 @@
     "type": "git",
     "url": "https://github.com/AIGamer28100/Con10T-Lab-Assement.git"
   },
-  "homepage": "http://aigamer28100.github.io/reachout",
+  "homepage": "http://aigamer28100.github.io/Con10T-Lab-Assement/",
   "main": "./dist/server.generated.js",
   "scripts": {
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist",
+    "development": "nodemon",
     "start": "NODE_ENV=production node ./dist/server.generated.js",
     "build": "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.js"
   },
@@ -41,7 +40,6 @@
     "webpack-node-externals": "1.7.2"
   },
   "dependencies": {
-    "gh-pages": "^4.0.0",
     "@hot-loader/react-dom": "16.13.0",
     "@material-ui/core": "4.9.8",
     "@material-ui/icons": "4.9.1",
