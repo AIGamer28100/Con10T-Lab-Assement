@@ -15,7 +15,6 @@
     "type": "git",
     "url": "https://github.com/AIGamer28100/Con10T-Lab-Assement.git"
   },
-  "homepage": "http://aigamer28100.github.io/Con10T-Lab-Assement/",
   "main": "./dist/server.generated.js",
   "scripts": {
     "development": "nodemon",
